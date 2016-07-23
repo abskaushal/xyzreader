@@ -17,13 +17,13 @@ android {
     buildToolsVersion "22.0.1"
 
     defaultConfig {
-        minSdkVersion 16
+        minSdkVersion 21
         targetSdkVersion 22
     }
 }
 
 dependencies {
-    compile 'com.android.support:support-v4:22.0.0'
+    compile 'com.android.support:design:22.2.0'
     compile 'com.android.support:support-v13:22.0.0'
     compile 'com.android.support:appcompat-v7:22.0.0'
     compile 'com.android.support:palette-v7:22.0.0'
