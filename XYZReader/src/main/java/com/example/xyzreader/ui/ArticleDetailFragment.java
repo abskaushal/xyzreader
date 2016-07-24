@@ -78,8 +78,8 @@ public class ArticleDetailFragment extends Fragment implements
         }
 
         mIsCard = getResources().getBoolean(R.bool.detail_is_card);
-        mStatusBarFullOpacityBottom = getResources().getDimensionPixelSize(
-                R.dimen.detail_card_top_margin);
+       // mStatusBarFullOpacityBottom = getResources().getDimensionPixelSize(
+         //       R.dimen.detail_card_top_margin);
         setHasOptionsMenu(true);
     }
 
@@ -95,7 +95,7 @@ public class ArticleDetailFragment extends Fragment implements
         // the fragment's onCreate may cause the same LoaderManager to be dealt to multiple
         // fragments because their mIndex is -1 (haven't been added to the activity yet). Thus,
         // we do this in onActivityCreated.
-        getLoaderManager().initLoader(0, null, this);
+       // getLoaderManager().initLoader(0, null, this);
     }
 
     @Override
@@ -104,7 +104,7 @@ public class ArticleDetailFragment extends Fragment implements
         mRootView = inflater.inflate(R.layout.fragment_article_detail, container, false);
         ((CollapsingToolbarLayout) mRootView.findViewById(R.id.collapsing_toolbar_layout)).setTitle("Eclairs");
 
-        mScrollView = (ObservableScrollView) mRootView.findViewById(R.id.scrollview);
+        //mScrollView = (ObservableScrollView) mRootView.findViewById(R.id.scrollview);
         /*mScrollView.setCallbacks(new ObservableScrollView.Callbacks() {
             @Override
             public void onScrollChanged() {

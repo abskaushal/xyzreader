@@ -16,13 +16,13 @@
             app:collapsedTitleTextAppearance="@style/TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse"
             app:expandedTitleTextAppearance="@style/TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse"
             app:expandedTitleMarginStart="72dp"
-            app:contentScrim="@color/theme_primary"
+            app:contentScrim="?attr/colorPrimary"
             app:layout_scrollFlags="scroll|exitUntilCollapsed">
 
             <ImageView
                 android:id="@+id/photo"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 app:layout_collapseMode="parallax"
                 android:scaleType="centerCrop"
                 android:src="@drawable/ic_share"
@@ -34,7 +34,8 @@
                 android:layout_height="?actionBarSize"
                 android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
                 android:contentInsetStart="72dp"
-                app:layout_collapseMode="parallax">
+                app:navigationIcon="@drawable/ic_arrow_back"
+                app:layout_collapseMode="pin">
 
 
             </android.support.v7.widget.Toolbar>
@@ -44,7 +45,7 @@
     </android.support.design.widget.AppBarLayout>
 
 
-    <com.example.xyzreader.ui.ObservableScrollView
+    <ScrollView
         android:id="@+id/scrollview"
         android:layout_width="match_parent"
         android:nestedScrollingEnabled="true"
@@ -60,7 +61,7 @@
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp" />
 
-    </com.example.xyzreader.ui.ObservableScrollView>
+    </ScrollView>
 
     <ImageButton android:id="@+id/share_fab"
         android:stateListAnimator="@anim/fab_state_list_anim"
