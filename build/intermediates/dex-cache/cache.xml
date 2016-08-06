@@ -2,102 +2,130 @@
 <items version="2" >
 
     <item
-        jar="E:\Udacity\Projects\xyzreader\XYZReader\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
-        <dex dex="E:\Udacity\Projects\xyzreader\XYZReader\build\intermediates\pre-dexed\debug\classes-973f535c2cbefd5d783efe56c109300c11d36d42.jar" />
+        jar="C:\Users\Abhishek\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.1.2\7052283359001bb108753cb0583a887d3bf94c82\okhttp-3.1.2.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="7052283359001bb108753cb0583a887d3bf94c82">
+        <dex dex="E:\Udacity\Projects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.1.2_3e6cc3f2780872d1a2e30527ba9369e31e6f9fc6\classes.dex" />
+    </item>
+    <item
+        jar="F:\App_Data\sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="E:\Udacity\Projects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.4.0_9541c016a0b8434d99164f2b307c713932db9f5c\classes.dex" />
+    </item>
+    <item
+        jar="E:\Udacity\Projects\xyzreader\XYZReader\build\intermediates\exploded-aar\com.android.support\support-v13\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="2bf893856577f5038c0b8007a43fda3b3c5beb23">
+        <dex dex="E:\Udacity\Projects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v13-23.4.0_d603ef7f6ac0ebf3fc9c27b0cf9a98da422be41c\classes.dex" />
+    </item>
+    <item
+        jar="E:\Udacity\Projects\xyzreader\XYZReader\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="E:\Udacity\Projects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-23.4.0_3aa93906b890374e297e125777a4fd5acd9568c3\classes.dex" />
+    </item>
+    <item
+        jar="E:\Udacity\Projects\xyzreader\XYZReader\build\intermediates\exploded-aar\com.android.support\palette-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="51518e8e8f97c314a243d9def0ded91d385b6a1e">
+        <dex dex="E:\Udacity\Projects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-palette-v7-23.4.0_d108404519d2435580217c52e2aa5a13cc199668\classes.dex" />
+    </item>
+    <item
+        jar="E:\Udacity\Projects\xyzreader\XYZReader\build\intermediates\exploded-aar\com.android.support\support-v13\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="be09545b7e6ff322c7286d2e80bed3b75b76c529">
+        <dex dex="E:\Udacity\Projects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.4.0_27847f1a0c10f3f043b68c8494c06a3a68dcff17\classes.dex" />
+    </item>
+    <item
+        jar="E:\Udacity\Projects\xyzreader\XYZReader\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="E:\Udacity\Projects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.4.0_3fa2c7f611221a043d66de26ee27a53eb052d198\classes.dex" />
+    </item>
+    <item
+        jar="E:\Udacity\Projects\xyzreader\XYZReader\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="E:\Udacity\Projects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.4.0_b3fb1508d64dabd584bd680b9d208ad5494aabda\classes.dex" />
+    </item>
+    <item
+        jar="E:\Udacity\Projects\xyzreader\XYZReader\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="E:\Udacity\Projects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.4.0_5f26ebaf7a74efd3bafeadefdf9b3f2366867082\classes.dex" />
+    </item>
+    <item
+        jar="E:\Udacity\Projects\xyzreader\XYZReader\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="E:\Udacity\Projects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.4.0_27067373ce04d6393c20cde6a58e880f861688a2\classes.dex" />
     </item>
     <item
         jar="C:\Users\Abhishek\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.7.0\9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4\glide-3.7.0.jar"
-        jumboMode="false"
-        revision="22.0.1"
+        jumboMode="true"
+        revision="23.0.3"
         sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
-        <dex dex="E:\Udacity\Projects\xyzreader\XYZReader\build\intermediates\pre-dexed\debug\glide-3.7.0-932944c2ee839a267a96e29f51cf8cf394b2cbf0.jar" />
+        <dex dex="E:\Udacity\Projects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\glide-3.7.0_932944c2ee839a267a96e29f51cf8cf394b2cbf0\classes.dex" />
     </item>
     <item
-        jar="E:\Udacity\Projects\xyzreader\XYZReader\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\libs\internal_impl-22.2.0.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
-        <dex dex="E:\Udacity\Projects\xyzreader\XYZReader\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-8098e44ea70f8350ecb77340ff330526f01ece15.jar" />
+        jar="E:\Udacity\Projects\xyzreader\XYZReader\build\intermediates\exploded-aar\com.android.support\design\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="E:\Udacity\Projects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-23.4.0_2da9545c031017a3151d43fcabdab7835c494493\classes.dex" />
     </item>
     <item
-        jar="E:\Udacity\Projects\xyzreader\XYZReader\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
-        <dex dex="E:\Udacity\Projects\xyzreader\XYZReader\build\intermediates\pre-dexed\debug\classes-be8f42d6e0b37a2c8634d489e12d0eb0478dac34.jar" />
-    </item>
-    <item
-        jar="E:\Udacity\Projects\xyzreader\XYZReader\build\intermediates\exploded-aar\com.android.support\support-v13\22.0.0\libs\internal_impl-22.0.0.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="def3eff2b7b4774d96ae15b07b3fc0111edbfe24">
-        <dex dex="E:\Udacity\Projects\xyzreader\XYZReader\build\intermediates\pre-dexed\debug\internal_impl-22.0.0-de0304d8448c6d0a7d234565cd341c49c34da1f6.jar" />
-    </item>
-    <item
-        jar="E:\Udacity\Projects\xyzreader\XYZReader\build\intermediates\exploded-aar\com.android.support\support-v13\22.0.0\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="7f9cca1caa023a880b00c382bcc5c90245ae4895">
-        <dex dex="E:\Udacity\Projects\xyzreader\XYZReader\build\intermediates\pre-dexed\debug\classes-201acaf7f0694312c3f3b65a2ee0b70bde81c4cc.jar" />
-    </item>
-    <item
-        jar="E:\Udacity\Projects\xyzreader\XYZReader\build\intermediates\exploded-aar\com.android.support\cardview-v7\22.0.0\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="11842de6a309c447b3a3d60d73ad637a87c58994">
-        <dex dex="E:\Udacity\Projects\xyzreader\XYZReader\build\intermediates\pre-dexed\debug\classes-4bb758426f7aedf6bed1399f5f6e418c0dac91f2.jar" />
-    </item>
-    <item
-        jar="E:\Udacity\Projects\xyzreader\XYZReader\libs\volley.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="c68094cbd011a3f9dccbfe16e77a2cf43622e277">
-        <dex dex="E:\Udacity\Projects\xyzreader\XYZReader\build\intermediates\pre-dexed\debug\volley-16591cb1e4de501dd7f6f8613d67f6100966e666.jar" />
-    </item>
-    <item
-        jar="E:\Udacity\Projects\xyzreader\XYZReader\build\intermediates\exploded-aar\com.android.support\palette-v7\22.0.0\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="285506e1cf9d5a66878e2aab3884b3427f8734e9">
-        <dex dex="E:\Udacity\Projects\xyzreader\XYZReader\build\intermediates\pre-dexed\debug\classes-89b21f30515571ad63a10f3ede1ca7bb874c79f6.jar" />
-    </item>
-    <item
-        jar="F:\App_Data\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.0\support-annotations-22.2.0.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
-        <dex dex="E:\Udacity\Projects\xyzreader\XYZReader\build\intermediates\pre-dexed\debug\support-annotations-22.2.0-3a5a91df6a19055bf9f34b1471780f2bc2d503c4.jar" />
+        jar="E:\Udacity\Projects\xyzreader\XYZReader\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="2e7e11f0e12289be6e4958b2e6ddad3e78645eb8">
+        <dex dex="E:\Udacity\Projects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_45d26ae11905298878cd42246eddb5b91cff9601\classes.dex" />
     </item>
     <item
         jar="C:\Users\Abhishek\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.6.0\98476622f10715998eacf9240d6b479f12c66143\okio-1.6.0.jar"
-        jumboMode="false"
-        revision="22.0.1"
+        jumboMode="true"
+        revision="23.0.3"
         sha1="98476622f10715998eacf9240d6b479f12c66143">
-        <dex dex="E:\Udacity\Projects\xyzreader\XYZReader\build\intermediates\pre-dexed\debug\okio-1.6.0-a59d59a870db65c7e9fa52a258687fdb7cac7b2e.jar" />
+        <dex dex="E:\Udacity\Projects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.6.0_a59d59a870db65c7e9fa52a258687fdb7cac7b2e\classes.dex" />
     </item>
     <item
-        jar="C:\Users\Abhishek\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.1.2\7052283359001bb108753cb0583a887d3bf94c82\okhttp-3.1.2.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="7052283359001bb108753cb0583a887d3bf94c82">
-        <dex dex="E:\Udacity\Projects\xyzreader\XYZReader\build\intermediates\pre-dexed\debug\okhttp-3.1.2-3e6cc3f2780872d1a2e30527ba9369e31e6f9fc6.jar" />
+        jar="E:\Udacity\Projects\xyzreader\XYZReader\libs\volley.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="c68094cbd011a3f9dccbfe16e77a2cf43622e277">
+        <dex dex="E:\Udacity\Projects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\2\volley_16591cb1e4de501dd7f6f8613d67f6100966e666\classes.dex" />
     </item>
     <item
-        jar="E:\Udacity\Projects\xyzreader\XYZReader\build\intermediates\exploded-aar\com.android.support\design\22.2.0\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="fc63b820d54c8a27a3a614bdd93920e0076581c2">
-        <dex dex="E:\Udacity\Projects\xyzreader\XYZReader\build\intermediates\pre-dexed\debug\classes-beb8aaf01af75382b6329c959cbb6400f906106b.jar" />
+        jar="E:\Udacity\Projects\xyzreader\XYZReader\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="9bcae11f9718a2eedcda3b1523e54b0770a96d16">
+        <dex dex="E:\Udacity\Projects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_2ad65d6d0ded92863177ab11f7b635cbc09f8cee\classes.dex" />
     </item>
     <item
-        jar="E:\Udacity\Projects\xyzreader\XYZReader\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\22.0.0\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="c6d79137693d494dee16372d3921f919eb724ced">
-        <dex dex="E:\Udacity\Projects\xyzreader\XYZReader\build\intermediates\pre-dexed\debug\classes-ca28ffd5f4eafd66dd76f6124b4bdd1303d894c6.jar" />
+        jar="E:\Udacity\Projects\xyzreader\XYZReader\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="d9ecde39b460470e655de6e47c05573d2d5a8bfb">
+        <dex dex="E:\Udacity\Projects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-cardview-v7-23.4.0_63604dcaafbef7fc36e29bef4fb6d539e6548628\classes.dex" />
+    </item>
+    <item
+        jar="E:\Udacity\Projects\xyzreader\XYZReader\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="E:\Udacity\Projects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.4.0_cd52e4008de1d171be92aff7a3c59d8fefff2a87\classes.dex" />
     </item>
 
 </items>

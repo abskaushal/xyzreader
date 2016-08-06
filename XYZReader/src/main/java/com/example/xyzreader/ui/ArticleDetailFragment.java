@@ -109,7 +109,7 @@ public class ArticleDetailFragment extends Fragment implements
 
         mCollapsingToolbarLayout =  (CollapsingToolbarLayout) mRootView.findViewById(R.id.collapsing_toolbar_layout);
         mPhotoView = (ImageView) mRootView.findViewById(R.id.photo);
-        mTitle = (TextView)mRootView.findViewById(R.id.title);
+       // mTitle = (TextView)mRootView.findViewById(R.id.title);
         mAuthor = (TextView) mRootView.findViewById(R.id.author);
         mToolbar = (Toolbar) mRootView.findViewById(R.id.toolbar);
         mShare = (ImageButton) mRootView.findViewById(R.id.share_fab);
@@ -153,7 +153,7 @@ public class ArticleDetailFragment extends Fragment implements
                 });
             }
 
-            mTitle.setText(title);
+           // mTitle.setText(title);
             mAuthor.setText(author);
             mBody.setText(body);
 
@@ -199,11 +199,11 @@ public class ArticleDetailFragment extends Fragment implements
             public void onGenerated(Palette palette) {
                 int defaultColor = 0xFF333333;
                 int darkMutedColor = palette.getDarkMutedColor(defaultColor);
-                int lightMutedColor = palette.getLightMutedColor(defaultColor);
+                int mutedColor = palette.getMutedColor(defaultColor);
                 mTextBg.setBackgroundColor(darkMutedColor);
                 if (mCollapsingToolbarLayout != null) {
-                    mCollapsingToolbarLayout.setContentScrimColor(darkMutedColor);
-                    mCollapsingToolbarLayout.setStatusBarScrimColor(lightMutedColor);
+                    mCollapsingToolbarLayout.setContentScrimColor(mutedColor);
+                    mCollapsingToolbarLayout.setStatusBarScrimColor(darkMutedColor);
                 }
             }
         });
