@@ -3,22 +3,21 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:fitsSystemWindows="true"
     tools:ignore="MergeRootFrame"
+    android:fitsSystemWindows="true"
     >
 
     <android.support.design.widget.AppBarLayout
         android:id="@+id/app_bar_layout"
         android:layout_width="match_parent"
         android:layout_height="320dp"
-        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
-        android:fitsSystemWindows="true">
+        android:fitsSystemWindows="true"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
 
         <android.support.design.widget.CollapsingToolbarLayout
             android:id="@+id/collapsing_toolbar_layout"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:fitsSystemWindows="true"
             app:collapsedTitleTextAppearance="@style/TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse"
             app:expandedTitleTextAppearance="@style/TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse"
             app:expandedTitleMarginStart="32dp"
@@ -38,10 +37,10 @@
                     android:scaleType="centerCrop"
                     tools:ignore="ContentDescription" />
 
-                <!--<View
+                <View
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:background="@drawable/photo_background_protection" />-->
+                    android:background="@drawable/photo_background_protection" />
 
                 <LinearLayout
                     android:id="@+id/text_bg"
@@ -100,15 +99,17 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
-        <TextView
-            android:id="@+id/body"
-            android:layout_marginTop="16dp"
-            android:textAppearance="@style/Base.TextAppearance.AppCompat.Body1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textColor="@color/color_primary_text"
-            android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp" />
+            <TextView
+                android:id="@+id/body"
+                android:layout_marginTop="16dp"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Body1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/color_primary_text"
+                android:linksClickable="true"
+                android:autoLink="web"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp" />
 
         </LinearLayout>
     </android.support.v4.widget.NestedScrollView>

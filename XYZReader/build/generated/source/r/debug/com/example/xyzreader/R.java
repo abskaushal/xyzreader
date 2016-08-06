@@ -2232,7 +2232,7 @@ containing a value of this type.
         public static final int progress_circular=0x7f0a0005;
         public static final int progress_horizontal=0x7f0a0006;
         public static final int radio=0x7f0a0051;
-        public static final int recycler_view=0x7f0a0068;
+        public static final int recycler_view=0x7f0a006a;
         public static final int refresh=0x7f0a0085;
         public static final int right=0x7f0a0025;
         public static final int screen=0x7f0a0036;
@@ -2265,7 +2265,7 @@ containing a value of this type.
         public static final int start=0x7f0a0026;
         public static final int status_bar_latest_event_content=0x7f0a007a;
         public static final int submit_area=0x7f0a0062;
-        public static final int swipe_refresh_layout=0x7f0a0067;
+        public static final int swipe_refresh_layout=0x7f0a0069;
         public static final int tabMode=0x7f0a000c;
         public static final int text=0x7f0a0082;
         public static final int text2=0x7f0a0080;
@@ -2275,8 +2275,8 @@ containing a value of this type.
         public static final int time=0x7f0a007e;
         public static final int title=0x7f0a0043;
         public static final int title_template=0x7f0a0046;
-        public static final int toolbar=0x7f0a006a;
-        public static final int toolbar_container=0x7f0a0069;
+        public static final int toolbar=0x7f0a0067;
+        public static final int toolbar_container=0x7f0a0068;
         public static final int top=0x7f0a0027;
         public static final int topPanel=0x7f0a0045;
         public static final int up=0x7f0a0008;
