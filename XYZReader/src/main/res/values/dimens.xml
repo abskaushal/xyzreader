@@ -12,4 +12,6 @@
     <dimen name="app_bar_elevation">4dp</dimen>
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="detail_text_linear_padding">16dp</dimen>
+
+    <integer name="grid_count">2</integer>
 </resources>

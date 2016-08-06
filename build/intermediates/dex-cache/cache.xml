@@ -89,7 +89,7 @@
         jar="E:\Udacity\Projects\xyzreader\XYZReader\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         revision="23.0.3"
-        sha1="2e7e11f0e12289be6e4958b2e6ddad3e78645eb8">
+        sha1="aefe0653ac75cb9c54ca14f67cfc5bb876689b9d">
         <dex dex="E:\Udacity\Projects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_45d26ae11905298878cd42246eddb5b91cff9601\classes.dex" />
     </item>
     <item
@@ -110,7 +110,7 @@
         jar="E:\Udacity\Projects\xyzreader\XYZReader\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         revision="23.0.3"
-        sha1="9bcae11f9718a2eedcda3b1523e54b0770a96d16">
+        sha1="07b0e59a584514b696b787bc765bb35566bc0649">
         <dex dex="E:\Udacity\Projects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_2ad65d6d0ded92863177ab11f7b635cbc09f8cee\classes.dex" />
     </item>
     <item

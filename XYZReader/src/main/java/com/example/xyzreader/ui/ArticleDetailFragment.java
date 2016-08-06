@@ -11,6 +11,7 @@ import android.os.Bundle;
 import android.support.design.widget.CollapsingToolbarLayout;
 import android.support.v4.app.ShareCompat;
 import android.support.v7.graphics.Palette;
+import android.support.v7.widget.CardView;
 import android.support.v7.widget.Toolbar;
 import android.text.Html;
 import android.text.format.DateUtils;
@@ -54,6 +55,7 @@ public class ArticleDetailFragment extends Fragment implements
     private TextView mBody;
     private ImageButton mShare;
     private LinearLayout mTextBg;
+    private CardView mCard;
 
     /**
      * Mandatory empty constructor for the fragment manager to instantiate the
@@ -109,12 +111,13 @@ public class ArticleDetailFragment extends Fragment implements
 
         mCollapsingToolbarLayout =  (CollapsingToolbarLayout) mRootView.findViewById(R.id.collapsing_toolbar_layout);
         mPhotoView = (ImageView) mRootView.findViewById(R.id.photo);
-       // mTitle = (TextView)mRootView.findViewById(R.id.title);
+        mTitle = (TextView)mRootView.findViewById(R.id.title);
         mAuthor = (TextView) mRootView.findViewById(R.id.author);
         mToolbar = (Toolbar) mRootView.findViewById(R.id.toolbar);
         mShare = (ImageButton) mRootView.findViewById(R.id.share_fab);
         mBody = (TextView) mRootView.findViewById(R.id.body);
         mTextBg = (LinearLayout) mRootView.findViewById(R.id.text_bg);
+        mCard = (CardView) mRootView.findViewById(R.id.card_view);
     }
 
     @Override
@@ -141,7 +144,7 @@ public class ArticleDetailFragment extends Fragment implements
             String photo = cursor.getString(ArticleLoader.Query.PHOTO_URL);
 
             if (mToolbar != null) {
-                if (!mIsCard) {
+                if (mCard == null) {
                     mToolbar.setTitle(title);
                 }
                 mToolbar.setNavigationIcon(R.drawable.ic_arrow_back);
@@ -153,7 +156,7 @@ public class ArticleDetailFragment extends Fragment implements
                 });
             }
 
-           // mTitle.setText(title);
+            mTitle.setText(title);
             mAuthor.setText(author);
             mBody.setText(body);
 
