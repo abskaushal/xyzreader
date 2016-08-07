@@ -10,7 +10,7 @@
     <android.support.design.widget.AppBarLayout
         android:id="@+id/app_bar_layout"
         android:layout_width="match_parent"
-        android:layout_height="320dp"
+        android:layout_height="@dimen/app_bar_height"
         android:fitsSystemWindows="true"
         android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
 
@@ -19,10 +19,10 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:fitsSystemWindows="true"
-            app:expandedTitleMarginStart="32dp"
+            app:expandedTitleMarginStart="@dimen/toolbar_margin_start"
             app:contentScrim="?attr/colorPrimary"
             app:expandedTitleMargin="@dimen/activity_horizontal_margin"
-            app:expandedTitleMarginBottom="30dp"
+            app:expandedTitleMarginBottom="@dimen/toolbar_margin_bottom"
             app:expandedTitleTextAppearance="@android:style/TextAppearance.Large"
             app:layout_scrollFlags="scroll">
 
@@ -41,7 +41,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="?actionBarSize"
                 android:theme="@style/ThemeOverlay.AppCompat.Light"
-                android:contentInsetStart="16dp"
+                android:contentInsetStart="@dimen/toolbar_content_start_margin"
                 android:navigationIcon="@drawable/ic_arrow_back"
                 app:layout_collapseMode="pin">
 
@@ -59,7 +59,7 @@
         android:layout_height="match_parent"
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
         android:background="@color/white"
-        app:behavior_overlapTop="160dp"
+        app:behavior_overlapTop="@dimen/nested_scrollbar_overlap"
         android:layout_gravity="center_horizontal">
 
         <RelativeLayout
@@ -68,7 +68,7 @@
 
             <android.support.v7.widget.CardView
                 android:id="@+id/card_view"
-                android:layout_width="500dp"
+                android:layout_width="@dimen/detail_cardview_width"
                 android:layout_centerHorizontal="true"
                 android:layout_height="wrap_content">
 
@@ -81,11 +81,11 @@
                     <LinearLayout
                         android:id="@+id/text_bg"
                         android:layout_width="match_parent"
-                        android:layout_height="80dp"
+                        android:layout_height="@dimen/title_linear_bg_height"
                         android:layout_gravity="bottom"
                         android:orientation="vertical"
-                        android:paddingRight="16dp"
-                        android:paddingLeft="16dp">
+                        android:paddingRight="@dimen/text_margin"
+                        android:paddingLeft="@dimen/text_margin">
 
 
                         <TextView
@@ -94,7 +94,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="0dp"
                             android:layout_weight="1"
-                            android:layout_marginTop="4dp"
+                            android:layout_marginTop="@dimen/dimen_4"
                             android:gravity="center_vertical"
                             android:textColor="@color/white"
                             android:visibility="visible"/>
@@ -103,7 +103,7 @@
                         <TextView
                             android:id="@+id/author"
                             style="?android:attr/textAppearanceSmall"
-                            android:layout_marginTop="8dp"
+                            android:layout_marginTop="@dimen/dimen_8"
                             android:layout_width="wrap_content"
                             android:layout_gravity="center_vertical"
                             android:layout_height="0dp"
@@ -121,9 +121,9 @@
                         android:textColor="@color/color_primary_text"
                         android:linksClickable="true"
                         android:autoLink="web"
-                        android:layout_marginLeft="16dp"
-                        android:layout_marginRight="16dp"
-                        android:layout_marginBottom="16dp"/>
+                        android:layout_marginLeft="@dimen/text_margin"
+                        android:layout_marginRight="@dimen/text_margin"
+                        android:layout_marginBottom="@dimen/text_margin"/>
 
 
                 </LinearLayout>
@@ -134,17 +134,16 @@
 
     </android.support.v4.widget.NestedScrollView>
 
-    <ImageButton android:id="@+id/share_fab"
-        android:stateListAnimator="@anim/fab_state_list_anim"
-        android:background="@drawable/add_fab_background"
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/share_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"
         android:layout_marginRight="@dimen/fab_margin"
         android:layout_marginBottom="@dimen/fab_margin"
-        android:layout_width="56dp"
-        android:layout_height="56dp"
         android:src="@drawable/ic_share"
         android:elevation="@dimen/fab_elevation"
-        android:contentDescription="@string/action_share" />
+        android:contentDescription="@string/action_share"/>
 
 
 

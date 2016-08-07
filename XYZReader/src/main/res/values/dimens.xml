@@ -12,6 +12,20 @@
     <dimen name="app_bar_elevation">4dp</dimen>
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="detail_text_linear_padding">16dp</dimen>
+    <dimen name="app_bar_height">320dp</dimen>
+    <dimen name="toolbar_margin_start">32dp</dimen>
+    <dimen name="toolbar_margin_bottom">40dp</dimen>
 
+    <dimen name="title_linear_bg_height">80dp</dimen>
+    <dimen name="title_linear_bg_padding_left">28dp</dimen>
+    <dimen name="title_linear_bg_padding_right">16dp</dimen>
+    <dimen name="title_linear_bg_padding_top">24dp</dimen>
+
+    <dimen name="dimen_8">8dp</dimen>
+    <dimen name="dimen_4">4dp</dimen>
+    <dimen name="toolbar_content_start_margin">16dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="nested_scrollbar_overlap">160dp</dimen>
+    <dimen name="detail_cardview_width">500dp</dimen>
     <integer name="grid_count">2</integer>
 </resources>

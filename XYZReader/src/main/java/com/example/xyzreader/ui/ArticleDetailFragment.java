@@ -9,6 +9,7 @@ import android.graphics.Bitmap;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.support.design.widget.CollapsingToolbarLayout;
+import android.support.design.widget.FloatingActionButton;
 import android.support.v4.app.ShareCompat;
 import android.support.v7.graphics.Palette;
 import android.support.v7.widget.CardView;
@@ -53,7 +54,7 @@ public class ArticleDetailFragment extends Fragment implements
     private TextView mAuthor;
     private Toolbar mToolbar;
     private TextView mBody;
-    private ImageButton mShare;
+    private FloatingActionButton mShare;
     private LinearLayout mTextBg;
     private CardView mCard;
 
@@ -114,7 +115,7 @@ public class ArticleDetailFragment extends Fragment implements
         mTitle = (TextView)mRootView.findViewById(R.id.title);
         mAuthor = (TextView) mRootView.findViewById(R.id.author);
         mToolbar = (Toolbar) mRootView.findViewById(R.id.toolbar);
-        mShare = (ImageButton) mRootView.findViewById(R.id.share_fab);
+        mShare = (FloatingActionButton) mRootView.findViewById(R.id.share_fab);
         mBody = (TextView) mRootView.findViewById(R.id.body);
         mTextBg = (LinearLayout) mRootView.findViewById(R.id.text_bg);
         mCard = (CardView) mRootView.findViewById(R.id.card_view);
